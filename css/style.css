@@ -1,0 +1,149 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+}
+
+/* For all section's title */
+.section-title {
+	font-size: 3rem;
+}
+
+/* Navigation */
+.logo {
+	font-weight: 9000;
+	font-size: 1.5rem;
+}
+.nav-item {
+	margin: 0 30px;
+}
+
+/* Main Section */
+#main {
+	background: url("./../img/fhi_sf_sm.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+.header-main {
+	margin-top: 20px;
+}
+.header-info {
+	font-weight: 900;
+	font-size: 3rem;
+	color: #fff;
+	font-family:'Courier New', Courier, monospace;
+	font-weight:700;
+}
+.btn-outline-light {
+	margin-left: 20px;
+}
+.btn-space {
+	margin-top: 20px;
+}
+
+/* Royalty */
+#Royalty{
+	background-color: yellow;
+}
+.info-width {
+	width: 60%;
+	font-size: 1.3rem;
+}
+.Royalty-icon {
+	font-size: 3rem;
+	color: #5a34fc;
+}
+.Royalty-row {
+	margin-top: 5rem;
+}
+.Royalty-header {
+	font-weight: 900;
+}
+.Royalty-icon, .Royalty-header, .info-width {
+	padding: 1rem 0;
+}
+
+/* Pictures */
+#Pictures {
+	background: linear-gradient(to right, #9c27b0, #8ecdff);
+	margin-top: 100px;
+	padding: 100px 0;
+}
+.section-title{
+	margin-bottom: 100px;
+}
+.carousel-item {
+	padding: 0 5%;
+}
+
+/* Noble Families */
+#NobleFamilies {
+		background: linear-gradient(to right, #9c27b0, #8ecdff);
+	margin-top: 0;
+	padding: 100px 0px;
+}
+.NobleFamilies-title {
+	margin-bottom: 100px;
+}
+.card {
+	box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+	border-color: #5a34fc;
+	border-radius: 10px;
+}
+.card-body {
+	padding: 7% 0;
+}
+
+.btn-block {
+	font-size: 1.5rem;
+}
+
+/* Call To Action */
+#videowrapper {
+	background-color: rgba(119, 2, 252, 0.795);
+	padding: 7% 15%;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+  
+#videowrapper iframe {
+	position: absolute;
+	top: 5%;
+	right: 0%;
+	bottom: 5%;
+	left: 5%;
+	height: 90%;
+	width: 90%;
+}
+
+/* Footer */
+#footer {
+	height: 200px;
+}
+.footer-icon {
+	font-size: 2rem;
+	color: #5a34fc;
+	padding: 5% 3%;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+
+	.iphone-mock {
+		display: none;
+	}
+	.card {
+		margin: 20px 0;
+	}
+	.header-info {
+		font-size: 2rem;
+	}
+	.btn-outline-light {
+		margin-left: 0px;
+	}
+	#footer {
+		height: 70px;
+	}
+
+}
